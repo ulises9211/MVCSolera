@@ -17,8 +17,13 @@ namespace EjemploFinal.Controllers
         // GET: ProductOrders
         public ActionResult Index()
         {
-            var productOrders = db.ProductOrders.Include(p => p.order).Include(p => p.product);
-            return View(productOrders.ToList());
+
+            
+            var productOrders = db.ProductOrders
+                .Include(p => p.order)
+                .Include(p => p.product)
+                .Include(p => p.order.customer);
+            return View(productOrders);
         }
 
         // GET: ProductOrders/Details/5

@@ -1,3 +1,13 @@
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.AssemblyReference.cache
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.init.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.primarykey.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.prueba.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.prueba2.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.prueba3.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.modelBuilder.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.modelBuilder2.resources
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.GenerateResource.cache
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.CoreCompileInputs.cache
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\EjemploFinal.dll.config
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\EjemploFinal.dll
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\EjemploFinal.pdb
@@ -101,11 +111,6 @@ C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\Microsoft.Ow
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.AssemblyReference.cache
-C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.init.resources
-C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.primarykey.resources
-C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.GenerateResource.cache
-C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.CoreCompileInputs.cache
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.CopyComplete
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.dll
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.pdb

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Data.Entity.Core;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -125,9 +126,16 @@ namespace EjemploFinal.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.ProductOrders.Add(productOrder);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                try
+                {
+                    db.ProductOrders.Add(productOrder);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }catch(Exception e)
+                {
+                    ViewBag.errorBorrar = e.Message;
+                    return View("error");
+                }
             }
             ViewBag.productId = new SelectList(db.Products, "id", "productName");
             return View();

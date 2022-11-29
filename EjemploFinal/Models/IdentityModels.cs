@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using EjemploFinal.Migrations;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -41,7 +42,9 @@ namespace EjemploFinal.Models
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<EjemploFinal.Models.ProductOrder>().HasKey(x => new { x.orderId, x.productId });
-            //modelBuilder.Entity<Order>().HasRequired( c => c.customer)
+            modelBuilder.Entity<Order>().HasRequired(o => o.customer).WithMany().WillCascadeOnDelete(false);
+            modelBuilder.Entity<ProductOrder>().HasRequired(o => o.product).WithMany().WillCascadeOnDelete(false);
+
         }
     }
 
