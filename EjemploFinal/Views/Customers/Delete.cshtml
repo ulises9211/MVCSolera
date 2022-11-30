@@ -4,6 +4,13 @@
     ViewBag.Title = "Delete";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<br />
+@if(TempData["AlertMEssage"] != null)
+{ 
+    <div class="alert alert-danger">
+        <strong>Error! </strong>@TempData["AlertMEssage"]
+    </div>
+}
 
 <h2>Delete</h2>
 

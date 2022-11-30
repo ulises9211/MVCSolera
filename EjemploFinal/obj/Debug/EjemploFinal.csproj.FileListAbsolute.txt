@@ -114,3 +114,4 @@ C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\bin\Microsoft.Co
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.csproj.CopyComplete
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.dll
 C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.pdb
+C:\Users\Ulises.Dorantes\source\repos\EjemploFinal\EjemploFinal\obj\Debug\EjemploFinal.Migrations.modifyTableAndColumnsName.resources

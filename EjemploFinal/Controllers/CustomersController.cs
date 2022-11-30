@@ -109,17 +109,18 @@ namespace EjemploFinal.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
+            Customer customer = db.Customers.Find(id);
             try
             {   
-                Customer customer = db.Customers.Find(id);
                 db.Customers.Remove(customer);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch(Exception e)
             {
+                TempData["AlertMEssage"] = "Error al borrar el cliente. (El cliente se encuentra vinculado a  una orden)";
                 ViewBag.errorBorrar = e.Message;
-                return View("error");
+                return View(customer);
             }
         }
 

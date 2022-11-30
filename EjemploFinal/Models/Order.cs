@@ -20,5 +20,5 @@ namespace EjemploFinal.Models
         public Customer customer { get; set; }
         public int customerId { get; set; }
         public virtual ICollection<ProductOrder> productOrder { get; set; }
-    }
+    }   
 }

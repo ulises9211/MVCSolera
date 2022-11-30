@@ -41,6 +41,7 @@ namespace EjemploFinal.Controllers
         // GET: Orders/Create
         public ActionResult Create()
         {
+            ViewBag.localDate = DateTime.Now.ToString("yyyy-MM-dd");
             ViewBag.customerId = new SelectList(db.Customers, "id", "name");
             return View();
         }
@@ -126,6 +127,7 @@ namespace EjemploFinal.Controllers
         {
             if (ModelState.IsValid)
             {
+                ViewBag.productId = new SelectList(db.Products, "id", "productName");
                 try
                 {
                     db.ProductOrders.Add(productOrder);
@@ -133,8 +135,8 @@ namespace EjemploFinal.Controllers
                     return RedirectToAction("Index");
                 }catch(Exception e)
                 {
-                    ViewBag.errorBorrar = e.Message;
-                    return View("error");
+                    TempData["AlertMEssage"] = "El cliente ya cuanta con ese articulo";
+                    return View(productOrder);
                 }
             }
             ViewBag.productId = new SelectList(db.Products, "id", "productName");

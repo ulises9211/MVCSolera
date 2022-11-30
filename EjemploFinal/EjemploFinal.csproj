@@ -206,6 +206,10 @@
     <Compile Include="Migrations\202211291633551_modelBuilder2.designer.cs">
       <DependentUpon>202211291633551_modelBuilder2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211302112284_modifyTableAndColumnsName.cs" />
+    <Compile Include="Migrations\202211302112284_modifyTableAndColumnsName.designer.cs">
+      <DependentUpon>202211302112284_modifyTableAndColumnsName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -335,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202211291633551_modelBuilder2.resx">
       <DependentUpon>202211291633551_modelBuilder2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211302112284_modifyTableAndColumnsName.resx">
+      <DependentUpon>202211302112284_modifyTableAndColumnsName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
